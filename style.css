@@ -44,4 +44,11 @@ body {
     color: black;
     font-size: 18px;
     font-weight: 600;
+    display: inline-block;
+    transition: 0,3s ease;
+}
+
+#navbar li a:hover{
+    color: #007BFF;
+    transform: translateY(-3px) scale(1.1);
 }
